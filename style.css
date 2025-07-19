@@ -1,0 +1,77 @@
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f4f4f4;
+}
+header {
+  background: #2B2D42;
+  color: #EDF2F4;
+  padding: 2rem 0;
+  text-align: center;
+}
+nav {
+  position: sticky;
+  top: 0;
+  background: #8D99AE;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  z-index: 1000;
+}
+nav a {
+  color: #EDF2F4;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+nav a:hover {
+  background: #2B2D42;
+  border-radius: 4px;
+}
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 4px;
+}
+section h2 {
+  margin-top: 0;
+  color: #2B2D42;
+}
+.download-button {
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 0.75rem 1.5rem;
+  background: #EF233C;
+  color: #EDF2F4;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.download-button:hover {
+  background: #D90429;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+table, th, td {
+  border: 1px solid #ccc;
+}
+th, td {
+  padding: 0.5rem;
+  text-align: left;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #8D99AE;
+  color: #2B2D42;
+}
